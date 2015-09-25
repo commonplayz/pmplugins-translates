@@ -1,0 +1,28 @@
+#Properties Config file
+#Wed Sep 23 08:25:37 ACT 2015
+language=de
+language-set=Sprache geändert %1 von commonplayz
+request-cancelled=Deine Anfrage wurde abgebrochen
+player-not-connected=Spieler %1 ist nicht auf dem Server
+player-never-connected=Spieler %1 war nie auf dem Server
+topmoney-format=[%1] %2: %3
+pay-failed=Bezahlung ist fehlgeschlagen.
+pay-success=Bezahlt %MONETARY_UNIT%%1 zu %2.
+money-paid=%1 gab dir %MONETARY_UNIT%%2.
+takemoney-must-be-number=Betrag muss Numerisch geschrieben werden
+takemoney-invalid-number=Unbekannte Nummer
+takemoney-player-lack-of-money=%1 hat nicht genügend %MONETARY_UNIT%%2. %1's geld : %MONETARY_UNIT%%3
+takemoney-money-taken=Dein %MONETARY_UNIT%%1 wurde genommen
+takemoney-took-money=Wurde  %1's geld %MONETARY_UNIT%%2
+takemoney-failed=Fehlgeschlagen das Geld zu nehmen
+givemoney-must-be-number=Betrag muss Nummern haben
+givemoney-invalid-number=Unbekannte Nummer
+givemoney-money-given=Du hast  %MONETARY_UNIT%%1
+givemoney-gave-money=Gegeben %MONETARY_UNIT%%1 to %2
+seemoney-seemoney=Spieler %1's Geld : %2
+setmoney-setmoney=Spieler %1's geld wurde %MONETARY_UNIT%%2
+setmoney-set=Dein Geld wurde %MONETARY_UNIT%%1
+setmoney-failed=Fehler beim Geld setzten wegen einem Unbekannten Fehler
+setmoney-invalid-number=%MONETARY_UNIT%%1 muss Nummern beinhalten
+mymoney-mymoney=Dein Geld : %MONETARY_UNIT%%1
+mystatus-show=Mein Geld Status : %1%
