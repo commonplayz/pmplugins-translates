@@ -1,0 +1,128 @@
+## German translation by CommonPlayZ
+---
+join: "Willkommen zu Color Match"
+join_others: "%1 ist beigetreten."
+leave: "Verlasse arena..."
+leave_others: "%1 ist raus."
+arena_doesnt_exist: "&cArena existiert nicht"
+arena_already_exist: "&cArena existiert bereits"
+arena_create: "&eArena erfolgreich erstellt!"
+start_game: "&l&1Spiel startet!"
+death: "%1 ist tot! %2 Spieler übrig"
+send_to_main_world: "&2zurück zu Lobby..."
+starting: "&aSpiel startet in %1 Sekunden"
+kick_from_game: "&9Du wurdest vom Spiel geschmissen für %1"
+game_full: "&cArena ist voll!"
+ingame: "&cSpiel hat bereits gestartet"
+enable_setup_mode: "&6Du bist gerade in Einstellung Modus&a-> wenn du fertig bist mach &l&odone"
+disable_setup_mode: '&aArena gespeichert'
+arena_in_setup: "&cArena ist in Wartungsarbeiten!"
+#reward for win
+get_money: "&aDu hast %1 gewonnen!"
+#end game message
+#create new line using "\n"
+end_game: "&6&l---------------------&r\n&5arena %1 ended\n&4winners:\n&a1. %2\n&e2. %3\n&c3. %4\n&6&l---------------------"
+not_enough_players: "&cNicht genügend Spieler"
+###################
+#Commands messages#
+###################
+has_not_permission: "&cDu hast keine Berechtigungen um diesen Befehl auszuführen"
+#invalid arguments in setup mode
+invalid_arguments: "&cUnbekannter Befehl\n&6use: &a&o&lhilfe"
+help: "&6benutze /cm help"
+join_help: "&6benutze /cm join &a[arena name]"
+leave_help: "&6benutze /cm leave &a[arena name]"
+start_help: "&6benutze /cm start &a[arena name]"
+stop_help: "&6benutze /cm stop &a[arena name]"
+kick_help: "&6benutze /cm kick &a[arena name] [player name]"
+set_help: "&6benutze /cm set &a[arena name]"
+create_help: "&6benutze /cm create &a[arena name]"
+delete_help: "&6benutze /cm delete &a[arena name]"
+setlobby_help: "&6benutze: &asetlobby"
+arena_running: "&cArena ist gerade in einem Spiel"
+use_cmd_in_game: "&6Du kannst das nur Im Spiel benutzen"
+arena_not_running: "&6Arena ist nicht im Spiel!"
+player_not_exist: "&cSpieler ist nicht im Spiep"
+##########################
+#setup mode done messages#
+##########################
+joinsign: "&aJoin Schild erfolgreich aktualisiert"
+returnsign: "&aLeave Schild erfolgreich aktualisiert"
+startpos: "&aStart Position erfolgreich aktualisiert"
+lobbypos: "&aLobby Position erfolgreich aktualisiert"
+corners: "&aEcken erfolgreich aktualisiert"
+first_corner: "&aErste Ecke erfolgreich gesetzt\n&eJetzt mach denn Block in der zweiten Ecke kaputt"
+second_corner: "&aDie zweite Ecke erfolgreich gesetzt"
+spectatorspawn: "&aZuschauer spawn erfolgreich aktualisiert"
+leavepos: "&aLeave Position erfolgreich aktualisiert"
+mainlobby: "&aHauptlobby Position erfolgreich aktualisiert"
+statusline: "&aSchild Zeile erfolgreich aktualisiert"
+type: "&aArena typ erfolgreich aktualisiert"
+material: "&aMaterial erfolgreich geändert"
+allowstatus: "&aStatus Schild erfolgreich aktualisiert"
+signupdatetime: "&aSchild Aktualisierungs Zeit erfolgreich geändert"
+world: "&aArena Welt wurde erfolgreich aktualisiert"
+allowspectator: "&aZuschauer Modus erfolgreich aktualisiert"
+maxtime: "&aSpiel Höchst Zeit geändert"
+maxplayers: "&aMaximale Spieler Anzahl geändert"
+minplayers: "&aMinimale Spieler Anzahl geändert"
+starttime: "&aStart Zeit erfolgreich aktualisiert"
+colortime: "&aZeit für die Farben wechseln aktualisiert"
+time: "&aArena Zeit erfolgreich geändert"
+enable: "&aArena erfolgreich aktualisiert"
+########################################
+#messages on help command in setup mode#
+########################################
+statusline_help: "&6use: &astatusline &b[line] [text]"
+type_help: "&6use: &atype &b[classic/furious/stoned]"
+material_help: "&6use: &amaterial &b[wool/clay]"
+allowstatus_help: "&6use: &aallowstatus &b[true/false]"
+signupdatetime_help: "&6use: &asignupdatetime &b[seconds]"
+world_help: "&6use: &aworld &b[world name]"
+allowspectator_help: "&6use: &aallowspectator &b[true/false]"
+maxtime_help: "&6use: &amaxtime &b[seconds]"
+maxplayers_help: "&6use: &amaxplayers &b[amount]"
+minplayers_help: "&6use: &aminplayers &b[amount]"
+starttime_help: "&6use: &astarttime &b[seconds]"
+colortime_help: "&6use: &acolortime &b[seconds]"
+time_help: "&6use: &atime &b[true/day/night/TICKS]"
+enable_help: "&6use: &aenable &b[true/false]"
+##################################
+#ColorMatch help command messages#
+##################################
+lobby: "\n- &2/cm lobby &l&5»&r&f Teleport to lobby"
+onleave: "\n- &2/cm leave &l&5»&r&f Leave the arena"
+onjoin: "\n- &2/cm join &b[arena name] &l&5»&r&f Join to the Arena"
+start: "\n- &2/cm start &b[arena name] &l&5»&r&f Force start the arena"
+stop: "\n- &2/cm stop &b[arena name] &l&5»&r&f Force stop the arena"
+kick: "\n- &2/cm kick &b[arena name] [player name] [reason] &l&5»&r&f Kick player from arena"
+set: "\n- &2/cm set &b[arena name] &l&5»&r&f Set or modify arena"
+delete: "\n- &2/cm delete &b[arena name] &l&5»&r&f Delete existing arena"
+create: "\n- &2/cm create &b[arena name] &l&5»&r&f Create new arena"
+########################################
+#arena setup mode help command messages#
+########################################
+help_joinsign: "\n- &2joinsign &l&5»&r&f Set join sign position"
+help_returnsign: "\n- &2returnsign &l&5»&r&f Set leave sign position"
+help_startpos: "\n- &2startpos &l&5»&r&f Set start game position"
+help_lobbypos: "\n- &2lobbypos &l&5»&r&f Set lobby position"
+help_corners: "\n- &2corners &l&5»&r&f Set floor corners"
+help_spectatorspawn: "\n- &2spectatorspawn &l&5»&r&f Set spectator spawn"
+help_leavepos: "\n- &2leavepos &l&5»&r&f Set leave position"
+help_time: "\n- &2time &b[true/day/night/ticks] &l&5»&r&f Set time in arena"
+help_colortime: "\n- &2colortime &b[seconds] &l&5»&r&f Set color changing interval"
+help_type: "\n- &2type &b[classic/furious/stoned] &l&5»&r&f Set arena type"
+help_material: "\n- &2material &b[wool/clay] &l&5»&r&f Set floor material"
+help_allowstatus: "\n- &2allowstatus &b[true/false] &l&5»&r&f Enable/disable status on join sign"
+help_world: "\n- &2world &b[world name] &l&5»&r&f Set arena world"
+help_statusline: "\n- &2statusline &b[line (1-4)] [text] &l&5»&r&f Set status sign line"
+help_allowspectator: "\n- &2allowspectator &b[true/false] &l&5»&r&f Enable/Disable spectator mode"
+help_signupdatetime: "\n- &2signupdatetime &b[seconds] &l&5»&r&f Set sign update interval"
+help_maxtime: "\n- &2maxtime &b[seconds] &l&5»&r&f Set max game time"
+help_maxplayers: "\n- &2maxplayers &b[count] &l&5»&r&f Set max players in game"
+help_minplayers: "\n- &2minplayers &b[count] &l&5»&r&f Set players minimal count required to start the game"
+######################
+#other setup messages#
+######################
+break_block: "&aNow break a block"
+break_sign: "&aNow break a sign"
